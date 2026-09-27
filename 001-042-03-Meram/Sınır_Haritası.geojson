@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Meram",
+        "Açıklama": "Meram İlçe Sınır Analizi ve CBS Poligon Çalışması",
+        "fill": "#ff9900",
+        "fill-opacity": 0.25,
+        "stroke": "#cc7700",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.48, 37.87],
+            [32.51, 37.78],
+            [32.42, 37.65],
+            [32.22, 37.68],
+            [32.25, 37.85],
+            [32.45, 37.87],
+            [32.48, 37.87]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Meram Bağları (Aydın Çavuş Tepesi)",
+        "Açıklama": "Meram Doğal ve Turistik Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.4552, 37.8558]
+      }
+    }
+  ]
+}
