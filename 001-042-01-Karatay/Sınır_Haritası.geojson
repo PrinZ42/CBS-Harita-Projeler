@@ -1,1 +1,42 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Karatay",
+        "Açıklama": "Kızören, Akbaş, Ortakonak ve Obruk Yaylalarını Kapsayan Gerçekçi CBS Sınırı",
+        "fill": "#0066ff",
+        "fill-opacity": 0.25,
+        "stroke": "#0044cc",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.482, 37.885],
+            [32.550, 38.050],
+            [32.740, 38.280],
+            [33.150, 38.250],
+            [33.320, 38.050],
+            [33.280, 37.780],
+            [32.950, 37.640],
+            [32.610, 37.780],
+            [32.482, 37.885]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Mevlana Müzesi Merkez Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5050, 37.8711]
+      }
+    }
+  ]
+}
