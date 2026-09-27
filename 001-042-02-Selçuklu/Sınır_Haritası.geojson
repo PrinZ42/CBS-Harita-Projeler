@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Selçuklu",
+        "Açıklama": "Selçuklu İlçe Sınır Analizi ve CBS Poligon Çalışması",
+        "fill": "#cc33ff",
+        "fill-opacity": 0.25,
+        "stroke": "#9900cc",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.48, 37.88],
+            [32.45, 38.05],
+            [32.35, 38.20],
+            [32.58, 38.22],
+            [32.62, 38.05],
+            [32.52, 37.89],
+            [32.48, 37.88]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Selçuklu Kulesi (Kule Site)",
+        "Açıklama": "Selçuklu İlçesi Kentsel Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5028, 37.8882]
+      }
+    }
+  ]
+}
