@@ -1,1 +1,37 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Alan Adı": "Karatay İlçe Sınırları",
+        "Açıklama": "Detaylı CBS Analiz ve Mikro Ölçekli Poligon Çalışma Alanı",
+        "fill": "#3388ff",
+        "fill-opacity": 0.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.50, 37.89],
+            [32.56, 37.89],
+            [32.56, 37.84],
+            [32.49, 37.84],
+            [32.50, 37.89]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Mevlana Müzesi",
+        "Açıklama": "Karatay İlçesi Kültürel ve Coğrafi Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.5050, 37.8711]
+      }
+    }
+  ]
+}
