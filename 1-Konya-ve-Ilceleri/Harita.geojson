@@ -4,25 +4,25 @@
     {
       "type": "Feature",
       "properties": {
-        "Nokta Adı": "Konya Büyükşehir",
-        "Açıklama": "CBS Çalışma Alanı Merkez Noktası"
+        "Bölge Adı": "Konya İl Sınırı",
+        "Açıklama": "Türkiye'nin Yüzölçümü En Büyük İli - CBS Genel Sınır Haritası",
+        "fill": "#00aa55",
+        "fill-opacity": 0.3
       },
       "geometry": {
-        "type": "Point",
-        "coordinates": [32.4833, 37.8714]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Nokta Adı": "Karatay İlçesi",
-        "Açıklama": "Detaylı CBS Analiz ve Detay Çalışma Bölgesi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [32.5312, 37.8680]
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [31.70, 38.30],
+            [32.80, 38.40],
+            [33.40, 37.90],
+            [33.10, 37.20],
+            [32.20, 37.10],
+            [31.40, 37.60],
+            [31.70, 38.30]
+          ]
+        ]
       }
     }
   ]
 }
-
