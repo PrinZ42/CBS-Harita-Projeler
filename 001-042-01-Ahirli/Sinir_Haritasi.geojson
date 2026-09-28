@@ -1,1 +1,39 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Ahırlı",
+        "Sıra": "01",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Ahırlı İlçe Sınır Poligonu",
+        "fill": "#9933ff",
+        "fill-opacity": 0.25,
+        "stroke": "#6600cc",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.05, 37.25],
+            [32.25, 37.30],
+            [32.20, 37.15],
+            [32.00, 37.18],
+            [32.05, 37.25]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Ahırlı İlçe Merkezi Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.1167, 37.2333]
+      }
+    }
+  ]
+}
