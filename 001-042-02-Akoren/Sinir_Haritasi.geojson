@@ -1,1 +1,40 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Akören",
+        "Sıra": "02",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Akören İlçe Sınır Poligonu",
+        "fill": "#00ffcc",
+        "fill-opacity": 0.25,
+        "stroke": "#00b38f",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.20, 37.50],
+            [32.45, 37.55],
+            [32.40, 37.35],
+            [32.15, 37.40],
+            [32.20, 37.50]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Akören Barajı Odak Noktası",
+        "Açıklama": "Akören İlçesi CBS Su Rezervuarı Analiz Lokasyonu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.3583, 37.4389]
+      }
+    }
+  ]
+}
