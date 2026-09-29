@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Altınekin",
+        "Sıra": "04",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Altınekin İlçe Sınır Poligonu",
+        "fill": "#ff9933",
+        "fill-opacity": 0.25,
+        "stroke": "#e67300",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.60, 38.50],
+            [32.85, 38.60],
+            [33.10, 38.45],
+            [32.90, 38.25],
+            [32.65, 38.30],
+            [32.60, 38.50]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Altınekin İlçe Merkezi Merkez Noktası",
+        "Açıklama": "Altınekin Tarımsal Çalışma Alanı Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.7067, 38.3506]
+      }
+    }
+  ]
+}
