@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Akşehir",
+        "Sıra": "03",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Akşehir İlçe Sınır Poligonu",
+        "fill": "#ff3333",
+        "fill-opacity": 0.25,
+        "stroke": "#cc0000",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [31.25, 38.30],
+            [31.55, 38.45],
+            [31.60, 38.35],
+            [31.45, 38.15],
+            [31.20, 38.20],
+            [31.25, 38.30]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Nasreddin Hoca Türbesi",
+        "Açıklama": "Akşehir İlçesi Tarihi, Turistik ve Kültürel Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.4162, 38.3578]
+      }
+    }
+  ]
+}
