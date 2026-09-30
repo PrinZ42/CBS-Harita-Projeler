@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Beyşehir",
+        "Sıra": "05",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Beyşehir İlçe Sınır Poligonu",
+        "fill": "#3399ff",
+        "fill-opacity": 0.25,
+        "stroke": "#0066cc",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [31.40, 37.60],
+            [31.80, 37.90],
+            [31.95, 37.75],
+            [31.60, 37.50],
+            [31.35, 37.55],
+            [31.40, 37.60]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Tarihi Eşrefoğlu Camii",
+        "Açıklama": "Beyşehir İlçesi UNESCO Dünya Mirası Odak Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7291, 37.6811]
+      }
+    }
+  ]
+}
