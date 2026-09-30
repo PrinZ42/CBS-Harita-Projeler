@@ -1,1 +1,41 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Bozkır",
+        "Sıra": "06",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Bozkır İlçe Sınır Poligonu",
+        "fill": "#a3c2c2",
+        "fill-opacity": 0.3,
+        "stroke": "#5c8585",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.10, 37.05],
+            [32.40, 37.20],
+            [32.50, 37.10],
+            [32.30, 36.95],
+            [32.05, 36.98],
+            [32.10, 37.05]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Bozkır İlçe Merkezi Merkez Noktası",
+        "Açıklama": "Bozkır CBS Yerleşim Alanı Analiz Lokasyonu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.2478, 37.1883]
+      }
+    }
+  ]
+}
