@@ -1,1 +1,42 @@
 
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Cihanbeyli",
+        "Sıra": "07",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Cihanbeyli İlçe Sınır Poligonu",
+        "fill": "#e6e6fa",
+        "fill-opacity": 0.3,
+        "stroke": "#b3b3cc",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.50, 38.80],
+            [32.95, 38.95],
+            [33.15, 38.70],
+            [32.80, 38.45],
+            [32.45, 38.55],
+            [32.50, 38.80]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Tuz Gölü CBS Analiz İstasyonu",
+        "Açıklama": "Cihanbeyli Sınırları Dahilindeki Tuz Havzası İzleme Noktası"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.9351, 38.6558]
+      }
+    }
+  ]
+}
