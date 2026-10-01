@@ -1,1 +1,40 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Çeltik",
+        "Sıra": "08",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Çeltik İlçe Sınır Poligonu",
+        "fill": "#ffe6cc",
+        "fill-opacity": 0.25,
+        "stroke": "#ff9933",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [31.65, 39.10],
+            [31.90, 39.15],
+            [32.00, 38.95],
+            [31.75, 38.90],
+            [31.65, 39.10]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Çeltik İlçe Merkezi Merkez Noktası",
+        "Açıklama": "Çeltik CBS Yerleşim Alanı Sınır Koordinatı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.7917, 39.0278]
+      }
+    }
+  ]
+}
