@@ -1,1 +1,40 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "İlçe": "Derbent",
+        "Sıra": "09",
+        "Açıklama": "Alfabetik Konya CBS Veri Tabanı İndeksi - Derbent İlçe Sınır Poligonu",
+        "fill": "#d1e0e0",
+        "fill-opacity": 0.3,
+        "stroke": "#7a9999",
+        "stroke-width": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [32.00, 37.90],
+            [32.20, 38.05],
+            [32.30, 37.95],
+            [32.10, 37.85],
+            [32.00, 37.90]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Nokta Adı": "Aladağ Kayak Merkezi CBS Analiz Noktası",
+        "Açıklama": "Derbent Aladağ Bölgesi Topografik İzleme Lokasyonu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.1245, 37.9621]
+      }
+    }
+  ]
+}
